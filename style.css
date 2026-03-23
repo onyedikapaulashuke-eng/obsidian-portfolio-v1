@@ -1,0 +1,84 @@
+* {
+    margin: 6; /* Kept your exact margin value */
+    padding: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #161B22; /* Surface Slate */
+    border-radius: 5px;
+    padding: 10px;
+    color: #58A6FF;           /* Electric Blue */
+    text-align: left;   
+}
+
+img {
+    margin: 5px;
+    padding: 5px;
+    max-inline-size: 120px;    /* Shrunk from 200px to make it smaller */
+    box-sizing: border-box;
+    border: 1px solid #30363D; /* Added subtle border to define the image */
+}
+
+p {
+    font-weight: bold;
+    font-size: small;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #0D1117; /* Deep Background */
+    color: #C9D1D9;           /* Light text */
+}
+
+h2 {
+    border-radius: 10px;
+    font-size: small;
+    padding: 10px;
+    background-color: #161B22; /* Surface Slate */
+    color: #58A6FF;           /* Mint Green */
+}
+
+header {
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    background: #161B22;
+}
+
+header-hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    background: #0D1117;
+    transform: translateX(0.3s);
+}
+
+body {
+    font-family: Arial;
+    background: #0D1117;      /* Deep Charcoal */
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    color: #C9D1D9;
+}
+
+section {
+    max-block-size: 200px;     /* Shrunk from 300px to make the box smaller */
+    margin: 0 auto 40px;
+    background: #161B22;      /* Surface Slate */
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgb(0, 0, 0);
+    border: 1px solid #30363D;
+    overflow: hidden;          /* Keeps content inside the smaller box */
+}
+
+section:hover {
+    background: #1C2128;      /* Subtle highlight */
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    transform: translateX(0.3s);
+}
+
+footer {
+    text-align: left;
+    color: #8B949E;           /* Muted footer text */
+}

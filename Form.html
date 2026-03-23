@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY FORM PROJECT</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+
+<header>
+    <h1>DEXHAM AUTOS</h1>
+</header>
+
+<body>
+
+<form action="/submit" method="post">
+
+    <section>
+        <label for="first_name">First name:</label>
+        <input type="text" id="first_name" name="first_name" required>
+    </section>
+    
+    <section>
+        <label for="last_name">Last name:</label>
+        <input type="text" id="last_name" name="last_name" required>
+    </section>
+    
+    <section>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+    </section>
+
+    <section>
+        <label for="phone_number">Phone number</label>
+        <input type="tel" id="phone_number" name="phone_number">
+    </section>
+
+    <section>
+        <label for="age">Age</label>
+        <select id="age" name="age">
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+        </select>
+    </section>
+
+    <section>
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+    </section>
+
+    <section>
+        <label for="course">Course of study</label>
+        <select id="course" name="course">
+            <option>Mathematics</option>
+            <option>Science</option>
+            <option>History</option>
+            <option>Biology</option>
+        </select>
+    </section>
+
+    <section>
+        <label for="enrollment">Enrollment date</label>
+        <select id="enrollment" name="enrollment">
+            <option>2025</option>
+            <option>2026</option>
+            <option>2027</option>
+            <option>2028</option>
+        </select>
+    </section>
+
+    <section>
+        <label for="subscribe">Subscribe to Newsletter</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+    </section>
+
+    <section>
+        <button type="submit">Register</button>
+    </section>
+
+</form>
+
+<table>
+    <caption>Registered Students</caption>
+    <tr>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Email</th>
+        <th>Phone number</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Course of Study</th>
+    </tr>
+
+    <tr>
+        <td>Max</td>
+        <td>Johnson</td>
+        <td>mjnsngmail.com</td>
+        <td>997-556-567</td>
+        <td>18</td>
+        <td>Male</td>
+        <td>Science</td>
+    </tr>
+
+    <tr>
+        <td>Sophie</td>
+        <td>Tosin</td>
+        <td>sosin@gmail.com</td>
+        <td>677-998-554</td>
+        <td>16</td>
+        <td>Female</td>
+        <td>History</td>
+    </tr>
+</table>
+
+</body>
+</html>
